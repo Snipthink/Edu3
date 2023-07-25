@@ -337,6 +337,29 @@
                                         <option value="Peer to Peer">Peer to Peer</option>
                                     </select>
                                 </div>
+
+                                <div class="form-group">
+                                    
+                                    <select class="custom-select border-0 px-4" name="sessions" style="height: 47px;">
+                                        <option selected>Select Session Time Slot</option>
+                                        <option value="Early Morning">1 on 1 Session</option>
+                                        <option value="Late Morning">2 on 1 Session</option>
+                                        <option value="After Noon">Group Session</option>
+                                        <option value="Late After Noon">Peer to Peer</option>
+                                    </select>
+
+                                    <select class="custom-select border-0 px-4" name="sessions" style="height: 47px;">
+                                        <option selected>Select Session Time Slot</option>
+                                        <option value="Early Morning">06:00 AM-09:00 AM </option>
+                                        <option value="Late Morning">09:00 AM-09:00 AM</option>
+                                        <option value="After Noon">12:00 PM-02:00 PM</option>
+                                        <option value="Late After Noon">02:00 PM-04:00 PM</option>
+                                        <option value="Evening">04:00 PM-07:00 PM</option>
+                                        <option value="Late Evening">07:00 AM-09:00 PM</option>
+                                        <option value="Night">09:00 AM-10:00 PM</option>
+                                    </select>
+                                    
+                                </div>
                  
                                 <div>
                                     <button class="btn btn-secondary btn-block border-0 py-3" type="submit">Book Now</button>
@@ -611,7 +634,7 @@
             </div>
      
             <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
+                <h3 class="text-primary mb-4">Request Call Back</h3>
                 <form action="https://formspree.io/f/xdorknol"
   method="POST">
                     <div class="form-group">
@@ -619,6 +642,10 @@
                     </div>
                     <div class="form-group">
                         <input type="email" class="form-control border-0 py-4" name="Email" placeholder="Your Email"
+                            required="required" />
+                    </div>
+                     <div class="form-group">
+                        <input type="contact" class="form-control border-0 py-4" name="Phone " placeholder="Phone Number"
                             required="required" />
                     </div>
                     <div>
