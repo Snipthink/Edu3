@@ -1,8 +1,19 @@
-User-agent: *
-Disallow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot
-Crawl-delay: 0
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://www.linguaverseo.com/index.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://www.linguaverseo.com/about.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://www.linguaverseo.com/class.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://www.linguaverseo.com/contact.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
